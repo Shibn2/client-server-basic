@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "rootDir": "./",
+      "outDir": "./dist",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "jsx": "react",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "plugins": [
+            { "name": "@typescript-eslint" },
+            { "name": "eslint-plugin-react" }
+        ]
+    },
+    "exclude": ["node_modules", "./src"]
+}
+  
